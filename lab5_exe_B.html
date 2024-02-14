@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang =" en ">
+<head >
+<meta charset =" UTF -8">
+<meta name =" viewport " content =" width = device - width , initial -
+scale =1.0">
+<title > JavaScript String and Variable Exercise </title>
+</head>
+<body>
+    <script>
+        let firstName = "Jubayer";
+        let lastName = "Ahmed";
+        let age = 21;
+
+        let fullName = firstName + " " + lastName;
+        console.log(fullName);
+
+        let currentYear = new Date().getFullYear();
+        let birthYear = currentYear - age;
+        console.log(birthYear);
+
+        console.log(fullName.length);
+        console.log(fullName.toUpperCase());
+
+        console.log('Hello, my name is ${Jubayer Ahmed} and I am ${21} years old. I was born in ${2002}.');
+
+        let canVote = age > 18 ? true : false;
+        console.log('I am eligible to vote ${canVote}');
+        
+    </script>
+</body>
+</html>
